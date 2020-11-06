@@ -1,0 +1,36 @@
+a {
+    text-decoration: none;
+    color: #424242;
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #424242;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 2.5%;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+    background: #8262b5;
+    ;
+    width: 14px;
+    height: 14px;
+}
+
+
+.owl-theme .owl-dots .owl-dot span {
+    background: #b5a7c6;
+}
