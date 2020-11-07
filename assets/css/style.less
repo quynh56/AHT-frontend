@@ -170,8 +170,8 @@ img {
             }
 
             .item-inner-1 {
-                bottom: 29%;
-                right: 12.5%;
+                top: calc(50% - -34px);
+                right: calc(50% - 281px);
 
                 .title {
                     font-size: @font-30;
@@ -196,8 +196,8 @@ img {
             }
 
             .item-inner-2 {
-                bottom: 34%;
-                left: 15.5%;
+                top: calc(50% - 18px);
+                right: calc(50% - 63px);
 
                 .title {
                     font-family: 'Montserrat', sans-serif;
@@ -220,8 +220,8 @@ img {
             }
 
             .item-inner-3 {
-                top: 35%;
-                left: 11%;
+                top: calc(50% - 47px);
+                right: calc(50% - -26px);
 
                 .title {
                     font-family: 'Montserrat', sans-serif;
@@ -718,6 +718,14 @@ img {
 @media all and (max-width:1120px){
     .sidebar .sidebar__mid .nav-item {
         padding: 8px ;
+    }
+}
+@media all and (max-width:992px){
+    .sidebar .sidebar__mid .nav-item {
+        padding: 8px ;
+    }
+    .main .product-ads .product-asd__item .item-inner .title{
+        font-size:@font-20;
     }
 }
 /********END RESPONSIVE**********/
