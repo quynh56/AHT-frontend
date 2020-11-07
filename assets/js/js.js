@@ -8,7 +8,7 @@ $(document).ready(function(){
             0:{
                 items:1
             },
-            600:{
+            482:{
                 items:2
             },
             1000:{
@@ -23,8 +23,9 @@ $(document).ready(function(){
 });
 var search=document.getElementById('btn-search');
 // var input=document.getElementById('mysearch');
-var navSearch=document.getElementById('navbar-search');
+var navSearch=document.getElementsById('navbar-search');
 search.addEventListener('click',function(){
     // input.style.width ="210px";
+    navSearch.style.display="block";
     navSearch.style.border="1px solid #000";
 });
