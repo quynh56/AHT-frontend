@@ -34,3 +34,7 @@ ul li {
 .owl-theme .owl-dots .owl-dot span {
     background: #b5a7c6;
 }
+.navbar__search input[type='search'],.navbar__search input[type='search']:active,.navbar__search input[type='search']:focus {     
+    outline: 0; 
+    border:none;    
+}
